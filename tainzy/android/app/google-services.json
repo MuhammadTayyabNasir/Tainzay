@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "611345080271",
+    "project_id": "tainzyapp",
+    "storage_bucket": "tainzyapp.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:611345080271:android:bb96fdbcf7e2285c733cba",
+        "android_client_info": {
+          "package_name": "com.example.tainzy"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCslWuZT7x1-n6ezC-4iiYnywYgeRrSoCk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

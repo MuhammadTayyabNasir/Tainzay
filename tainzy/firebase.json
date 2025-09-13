@@ -1,0 +1,39 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "tainzyapp",
+          "appId": "1:611345080271:android:bb96fdbcf7e2285c733cba",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "tainzyapp",
+          "configurations": {
+            "android": "1:611345080271:android:bb96fdbcf7e2285c733cba",
+            "ios": "1:611345080271:ios:885fcfb788285af1733cba",
+            "macos": "1:611345080271:ios:885fcfb788285af1733cba",
+            "web": "1:611345080271:web:5bdad444fd096d26733cba",
+            "windows": "1:611345080271:web:0f838fd51d280f2f733cba"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

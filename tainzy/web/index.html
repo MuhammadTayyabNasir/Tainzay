@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value in HTML base tag.
+  -->
+  <base href="/">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="Tainzy - Clinic Management System">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="Tainzy">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>TAINZY</title>
+  <link rel="manifest" href="manifest.json">
+</head>
+<body>
+
+<!-- Firebase SDK -->
+<!-- Using the compat libraries ensures compatibility with the FlutterFire plugins. -->
+<script src="https://www.gstatic.com/firebasejs/10.9.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.9.0/firebase-auth-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.9.0/firebase-firestore-compat.js"></script>
+
+<script>
+  // Your web app's Firebase configuration, taken from your firebase_options.dart
+  const firebaseConfig = {
+    apiKey: "AIzaSyBASBITg9ZFDU85Dcspnuus42GXLsLC-N0",
+    authDomain: "tainzyapp.firebaseapp.com",
+    projectId: "tainzyapp",
+    storageBucket: "tainzyapp.firebasestorage.app",
+    messagingSenderId: "611345080271",
+    appId: "1:611345080271:web:5bdad444fd096d26733cba",
+    measurementId: "G-5QRL04J2G7"
+  };
+
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+
+<!-- This script loads the Flutter web app -->
+<script src="flutter_bootstrap.js" async></script>
+
+</body>
+</html>
